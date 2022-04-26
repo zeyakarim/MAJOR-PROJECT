@@ -1,0 +1,525 @@
+body{
+	background-color: #0e0128;
+	font-family: sans-serif;
+}
+
+
+/*NAV BAR*/
+#nav-bar{
+	width: 100%;
+}
+
+/*ADD NAV ICON*/
+#nav-icon{
+	display: flex;
+	color: gray;
+	width: 96%;
+	margin: auto;
+	justify-content: space-between;
+	padding: 10px;
+	flex-wrap: wrap;
+}
+
+/*ADD MEDIA SCREEN*/
+@media screen and (max-width: 600px){
+	#nav-icon{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 96%;
+      margin: 0px;
+      padding: 0;
+	}
+}
+
+/*ADD NAV-ICON LI*/
+#nav-icon li{
+	list-style: none;
+}
+
+/*FIRST NAV SECTION*/
+#first-nav-section{
+	display: flex;
+}
+
+
+/*ADD MEDIA SCREEN*/
+@media screen and (max-width: 600px){
+	#first-nav-section{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+/*ADD HEADER LOGO IMAGE*/
+#logo img{
+	border-radius: 50%;
+}
+
+/*ADD NAV MENU*/
+#nav-menu{
+	margin: 0px 10px;
+}
+
+/*ADD FONT SIZE DECREASE NINJA*/
+.font-size-decrease{
+	margin-bottom: 3px;
+   margin-top: 10px;
+   color: gray;
+}
+
+/*ADD FONT SIZE STUDIO*/
+.font-size{
+	margin-top: 3px;
+   color: white;
+}
+
+/*ADD FAVOURITES*/
+#favourites{
+	margin: 10%;
+   color: gray;
+   font-size: 13px;
+}
+
+/*ADD HOME*/
+#home{
+	margin: 10%;
+   color: gray;
+   font-size: 13px;
+}
+
+/*ADD HOME REFERALL PAGE*/
+#home a{
+	text-decoration: none;
+   color: gray;
+}
+
+/*ADD SECOND NAV SECTION*/
+#second-nav-section{
+	display: flex;
+}
+
+/*ADD SEARCH BUTTON*/
+#search-btn{
+	background-color: #1d024c;
+   margin: 10px;
+   border-radius: 8px;
+}
+
+/*ADD SEARCH -ICON */
+.search-icon i{
+	font-size: 13px;
+   padding: 5px;
+}
+
+/*ADD SEARCH AREA*/
+.search-area input{
+	padding: 7px;
+   background-color: transparent;
+   border: 0;
+   width: 240px;
+}
+
+/*ADD MIC*/
+.microphone i{
+   font-size: 12px;
+   padding: 7px;
+}
+
+/*ADD BELL ICON*/
+.bell i{
+	font-size: 22px;
+   color: white;
+   margin: 13px;  
+}
+
+/*ADD BELL*/
+.bell{
+	position: relative;
+}
+
+/*ADD NOTIFICATION*/
+.notification{
+	height: 8px;
+	width: 8px;
+	position: absolute;
+	background-color: red;
+	border-radius: 50%;
+	top: 20%;
+   right: 11%;
+}
+
+/*ADD PROFILE-ICON IMAGE*/
+.profile-icon img{
+	border-radius: 50%;
+}
+
+/*ADD SECOND NAV*/
+#second{
+	display: flex;
+}
+
+/*ADD MEDIA SCREEN*/
+@media screen and (max-width: 600px){
+	#second{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+/*ADD SECOND DIV*/
+#second div{
+   margin: 5px 8px;
+}
+
+/*ADD MAIN CONTAINER*/
+main{
+	width: 68%;
+	display: inline-block;
+}
+
+/*ADDING SECTION INLINE BLOCK*/
+section{
+	display: inline-block;
+}
+
+/*ADD COLDPLAY PROFILE*/
+#coldplay-profile{
+	width: 85%;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+/*ADD PROFILE HEADER*/
+#profile-header{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*ADD FOLLOWER*/
+.follower{
+	margin-top: 29px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+/*ADD CONTAINER*/
+#container{
+	width: 100%;
+	background-color: #00062e;
+	display: flex;
+	color: white;
+	flex-wrap: wrap;
+}
+
+/*ADD CONTAINER CONTENT*/
+#container-content{
+	margin: 2px 28px 2px 30px;
+	color: gray;
+	width: 55%;
+}
+
+
+/*ADD MEDIA SCREEN*/
+@media screen and (max-width: 1100px){
+	main{
+		width: 66%;
+	}
+	#container-content{
+		width: 60%;
+	}
+}
+
+
+/*ADD MEDIA SCREEN*/
+@media screen and (max-width: 600px){
+
+	main{
+		width: 100%;
+	}
+	#coldplay-profile{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+	}
+
+	#container{
+		width: 100%;
+	}
+
+	#container img{
+		margin: auto;
+		width: 50%;
+		height: 50%;
+	}
+
+	#container-content{
+		width: 77%;
+		margin: auto;
+	}
+}
+
+/*ADD CONTAINER CONTENT HEADER*/
+#container-content h1{
+	margin-bottom: 3px;
+	color: white;
+}
+
+/*ADD BAND NAME*/
+.band-name{
+	margin: 0;
+	font-size: 14px;
+}
+
+/*ADD BAND BIODATA*/
+.band-biodata{
+	line-height: 25px;
+	font-size: 13px;
+	text-align: justify;
+}
+
+/*ADD PLAY ALL-BUTTON*/
+.play-all{
+	background: linear-gradient(to right,blue,purple);
+   width: 60px;
+   padding: 8px 30px;
+   color: white;
+   margin-bottom: 3px;
+}
+
+/*ADD SONG COUNT*/
+.song-count{
+	font-size: 11px;
+	color: white;
+}
+
+/*ADD FOLLOW SECTION*/
+#follow-section{
+	display: flex;
+	margin-top: 34px;
+}
+
+/*ADD FOLLOW */
+.follow {
+	margin: 23px 0px 0px 61px;
+	font-size: 14px;
+	color: white;
+}
+
+/*ADD COLDPLAY SONGS*/
+#coldplay-songs{
+	width: 85%;
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+/*ADD SONGS*/
+#songs{
+	color: gray;
+   display: flex;
+   margin-top: 10px;
+   width: 100%;
+   background-color: #0c1326db;
+   justify-content: space-between;
+}
+
+/*ADD MEDIA SCREEN*/
+@media screen and (max-width: 600px){
+	#coldplay-songs{
+		margin:0px ;
+		width: 90%;
+	}
+}
+
+/*ADD SONG BOX*/
+.song-box{
+	display: flex;
+	margin-left: 5px;
+}
+
+/*ADD SONG BOX DIV*/
+.song-box div{
+	margin: 7px 8px;
+}
+
+/*ADD NUMBER*/
+.number{
+	margin-top: 21px;
+   margin-right: -5px;
+}
+
+/*ADD IMAGE ON IMAGE BOX*/
+.image img{
+	margin-top: 5px;
+}
+
+/*ADD MIRAGE COLOR WHITE*/
+.mirage-color-white{
+	color: white;
+   margin-bottom: 0px;
+   margin-top: 12px;
+}
+
+/*ADD ELSE*/
+.else{
+	margin-top: 3px;
+   font-size: 13px;
+}
+
+/*ADD SONG FAVOURITE*/
+.song-favourite{
+	display: flex;
+	margin: 18px;
+}
+
+/*ADD SONG FAVOURITE DIV*/
+.song-favourite div{
+	margin: 8px 14px;
+}
+
+/*ADD ASIDE BAR*/
+aside{
+	width: 26%;
+	vertical-align: top;
+	float: right;
+	margin-right: 70px;
+}
+
+/*ADD MEDIA SCREEN*/
+@media screen and (max-width: 1100px){
+	aside{
+		float: right;
+		width: 32%;
+		margin-left: 10px;
+		margin-right: 0px;
+	}
+	#aside-container{
+		width: 87%;
+	}
+}
+
+/*ADD MEDIA SCREEN*/
+@media screen and (max-width: 600px){
+	aside{
+		width: 100%;
+		margin: 0px;
+	}
+
+	#aside-container{
+		width: 93%;
+	}
+}
+
+/*ADD SIDE BAR CONTAINER*/
+#side-bar-container{
+	width: 100%;
+	color: white;
+}
+
+/*ADD SIDE BAR BOX*/
+#side-bar-box{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 4px;
+}
+
+/*ADD VIEW ALL COLOR*/
+.view-all-color{
+	color: gray;
+	margin: 24px 12px 24px 0px;
+   font-size: 13px;
+}
+
+/*ADD BOX*/
+#box{
+	display: flex;
+	color: white;
+	padding: 5px;
+}
+
+/*ADD BOX DIV*/
+#box div{
+   color: gray;
+}
+
+/*ADD BOX CONTENT*/
+.content{
+	width: 76%;
+   display: flex;
+   justify-content: space-between;
+}
+
+/*ADD MEDIA SCREEN*/
+@media screen and (max-width: 1100px){
+	.content{
+		width: 88%;
+	}
+}
+
+/*ADD TIME-MINUTE*/
+.time-minute{
+	margin-right: 2px;
+   margin-top: -12px;
+   font-size: 14px;
+}
+
+/*ADD MENU*/
+.menu{
+   margin-left: 12px
+}
+
+/*ADD MENU ICON*/
+.menu i{
+	font-size: 14px
+}
+
+/*ADD IMAGINE*/
+.imagine{
+	color: white;
+   margin-top: 10px;
+   margin-bottom: 8px;
+}
+
+/*ADD IMAGEINE*/
+.imagine1{
+	color: white;
+   margin-top: 10px;
+   margin-bottom: 3px;
+}
+
+/*ADD POP*/
+.pop{
+	margin-top: 2px;
+	font-size: 13px;
+}
+
+/*ADD SIDE*/
+.side{
+	margin-top: -2px;
+   margin-right: 10px;
+}
+
+/*ADD SIDE1*/
+.side1{
+	margin-top: -2px;
+   margin-right: 15px;
+}
+
+/*ADD NAME*/
+.name{
+	margin: 0px 10px;
+}
+
+/*ADD RECENTLY PLAYED*/
+#songs1{
+	color: gray;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}

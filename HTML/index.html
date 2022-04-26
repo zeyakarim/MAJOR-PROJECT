@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+	<link rel="shortcut icon" type="image/x-icon" href="../FAVICON IMAGE/59-headphones.jpg">
+</head>
+<body>
+	<header>
+		<nav id="nav-bar">
+			<div class = "dropdown-menu text-right">
+                <div class="bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class ="dropdown-list nav-menu">
+                    <ul class = "no-list-style">
+                        <li >
+                            Home
+                        </li>
+                        <li>
+                            Favourite
+                        </li>
+						<li>
+                            Search
+                        </li>
+                        <li>
+                            Notification
+                        </li>
+                        <li>
+                            Contact
+                        </li>
+                    </ul>
+                </div>
+
+             </div>   
+
+
+			<div id="nav-icon">
+                <!-- ADDING FIRST NAV SECTION -->
+				<div id="first-nav-section">
+					<!-- ADDING NAV-LOGO -->
+					<span id="logo">
+						<img src="https://png.pngtree.com/png-vector/20200810/ourlarge/pngtree-smartphone-and-music-player-with-headphone-vector-design-png-image_2323793.jpg" width="60px" height="60px">
+					</span>
+
+					<!-- ADDING NAV-MENU -->
+				    <li id="nav-menu">
+						<p class="font-size-decrease">Ninja</p>
+						<p class="font-size">Studio</p>
+					</li>
+
+					<li id="favourites" >
+						<i class="fa-solid fa-heart"></i><span class="txt" style="padding-left: 10px;">Favourite</span>
+					</li>
+                </div> 
+
+                <div id="second-nav-section">
+                    <!-- ADDING SECOND NAV MENU AND FORM -->
+				    <div id="second">
+					    <div>
+							<form id="search-btn">
+								<span class= "search-icon">
+									<i class="fas fa-search" style="font-size:12px;"></i>
+                                </span>
+								<span class="search-area">
+									<input type="search" name="search-icon" placeholder="Search">
+								</span>
+
+								<span class ="microphone">
+									<i class="fas fa-microphone" style="font-size: 12px"></i>
+								</span>
+					        </form>
+					    </div>
+
+					    <div>
+							<div class="bell">
+								<i class="fas fa-bell" style="font-size:22px"></i>
+								<div class="notification">
+									
+								</div>
+							</div>
+				        </div>
+
+				        <div class="profile-icon">
+							<img src="https://images.unsplash.com/photo-1632337357627-a2dfd638a33c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" width="50px" height="50px" alt="profile-icon">
+					    </div>		
+				    </div>
+			    </div>
+			</div>
+		</nav>
+	</header>
+
+
+    <!--ADDING MAIN -->
+	<main>
+		<section id="header-container">
+			 <!-- ADD HEADER IMAGES -->
+			<div id="container-image">
+				<div id="container-image-boxes">
+					<div>
+						<img src="https://cdni.rbth.com/rbthmedia/images/2020.02/article/5e4bd6e115e9f97c26541f2a.jpg" width="290px" height="290px">
+				    </div>
+				    <div>
+				    	<img src="https://upload.wikimedia.org/wikipedia/en/d/d1/Babycoverart.jpg" width="290px" height="290px">
+				    </div>
+				    <div>
+				    	<img src="https://images.unsplash.com/photo-1566808907623-51b8fc382454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="290px" height="290px">
+
+				    </div>
+				</div>
+					
+		    </div>
+		</section>
+
+		<!-- ADDING LATEST RELEASE -->
+		<section id="latest-release">
+			<h1>Latest Release</h1>
+
+			<!-- ADDING LATEST-RELEASE-BOXES -->
+			<div id="latest-release-boxes">
+                
+                <!-- ADDING FIRST BOX -->
+				<div class="release-box">
+	                <div id="image-over" class="click1">
+					    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width="100px" height="100px">
+					    
+					    <!-- ADD PLAYBUTTON -->
+			            <span class="play-button1">
+			                <i class="fas fa-play" style="font-size:20px;"></i>
+            
+			                <!-- ADDING MUSIC-PLAYER-CONTAINER -->
+					        <div id="music-play-container">
+
+							    <!-- ADDING MUSIC BOXES -->
+						        <div id="music-play-boxes">
+
+					    	        <div id="play-boxes">
+
+					    	        	<!-- ADDING IMAGE,SINGER NAME AND SONG NAME -->
+										<div class="image">
+											<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=60" width="60px" height="60px">
+										    <li>
+										  	    <p class="song-name">Imagine By John</p>
+										  	    <p class="singer-name">John Lennon</p>
+										    </li>
+										    <div class="heart">
+										  		<i class="far fa-heart"></i>
+										    </div>
+										
+										    <div class="ban">
+										  		<i class="fas fa-ban"></i>
+										  
+										    </div>
+									    </div>
+					  
+									    <!-- ADDING PLAYLIST-MENU  -->
+										<div id="menu">
+											<div id="music-play-icon">
+												<div class="shuffle">
+													<i class="fas fa-random" style="font-size:15px;"></i>
+												</div>
+												<div class="backward">
+													<img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
+												</div>
+												<div class="pause">
+													<i class="far fa-pause-circle" style="font-size: 35px;"></i>
+												</div>
+											    <div class="forward">
+											  	    <img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
+											    </div>
+											    <div class="repeat">
+											  	    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="30"viewBox="0 0 172 172"
+													style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M114.66667,22.93333v17.2h-68.8c-18.92932,0 -34.4,15.47068 -34.4,34.4c-0.02924,2.06765 1.05709,3.99087 2.843,5.03322c1.78592,1.04236 3.99474,1.04236 5.78066,0c1.78592,-1.04236 2.87225,-2.96558 2.843,-5.03322c0,-12.73015 10.20319,-22.93333 22.93333,-22.93333h68.8v17.2l40.13333,-22.93333zM154.71042,91.65495c-3.16203,0.04943 -5.68705,2.6496 -5.64375,5.81172c0,12.73015 -10.20318,22.93333 -22.93333,22.93333h-68.8v-17.2l-40.13333,22.93333l40.13333,22.93333v-17.2h68.8c18.92932,0 34.4,-15.47068 34.4,-34.4c0.02122,-1.54972 -0.58581,-3.04203 -1.68279,-4.1369c-1.09698,-1.09487 -2.59045,-1.69903 -4.14013,-1.67482z"></path></g></g>
+													</svg>
+									            </div>
+											</div>
+
+											<!--  ADDING SLIDER-RANGE -->
+											<div class="slider">
+												<span class="timer">1:39</span>
+											    <input type="range" id="range" name="range" min="0" max="11">
+											    <label for="range"></label>
+											    <span class="timer">4:44</span>
+										    </div>
+									    </div>
+
+									    <!-- ADDING LAST SLIDER SECTION  -->
+									    <div id="last-slider">
+									  	
+										  	<div>
+											  	<i class="fas fa-indent"></i>
+											  </div>
+											  <div>
+										  		<i class="fas fa-volume-down"></i>
+										  	</div>
+
+										  	<div >
+										  		<input type="range" id="range" name="range" min="0" max="11">
+											    <label for="range"></label>
+										  	</div>
+									  	    <div>
+									  		    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="32"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M166.625,0h-37.625c-2.97237,0 -5.375,2.40263 -5.375,5.375c0,2.97237 2.40263,5.375 5.375,5.375h22.65562l-51.07862,51.22375c-2.09625,2.10162 -2.09625,5.504 0.01075,7.60025c1.04812,1.04275 2.41875,1.5695 3.79475,1.5695c1.38138,0 2.75738,-0.52675 3.8055,-1.58025l53.062,-53.2125v26.64925c0,2.97238 2.40263,5.375 5.375,5.375c2.97237,0 5.375,-2.40262 5.375,-5.375v-37.625c0,-2.97237 -2.40263,-5.375 -5.375,-5.375z"></path><path d="M5.375,172h32.25c2.97237,0 5.375,-2.40263 5.375,-5.375c0,-2.97237 -2.40263,-5.375 -5.375,-5.375h-20.84962l51.07325,-51.22375c2.09625,-2.10162 2.09087,-5.504 -0.01075,-7.60025c-2.10162,-2.09087 -5.49862,-2.09625 -7.60025,0.01075l-49.48762,49.63275v-23.0695c0,-2.97237 -2.40263,-5.375 -5.375,-5.375c-2.97237,0 -5.375,2.40263 -5.375,5.375v37.625c0,2.97237 2.40263,5.375 5.375,5.375z"></path></g></g></svg>
+									  	    </div>
+									    </div>
+	                                </div>
+				                </div>
+		                    </div>
+
+			            
+			            </span>
+			        </div>
+
+
+
+					<!-- ADDING DATE -->
+					<span id="date">
+						<p>Onism</p>
+					    <p class="dates">AUG 11,2017</p>
+					</span>
+                    
+                    <!-- ADDING THREE DOTTED AND TIME -->
+					<span id="time1">
+						<i class="fas fa-ellipsis-h"></i>
+
+						<!-- ADDING HOVER MENU BOXES WHEN HOVER THE THREE DOTTED IT WILL COME -->
+						<span id="music-menu-boxes">
+							<p class="button">
+								<i class="fas fa-play">
+									<span class="play-now">Play Now</span>
+								</i>
+						    </p>
+						    <p class="button">
+								<i class="fas fa-plus">
+									<span class="play-now">Add To Queue</span>
+								</i>
+						    </p>
+						    <p class="button">
+								<i class="fas fa-heart">
+									<span class="play-now">Add To Favourites</span>
+								</i>
+						    </p>
+						     <p class="button">
+								<i class="fas fa-info-circle">
+									<span class="play-now">Get Info</span>
+								</i>
+						    </p>
+					    </span>
+					  
+					</span>
+					<p class="time-location">4:44</p>
+			    </div>
+                
+                <!-- ADDING SECOND BOX -->
+				<div class="release-box">
+					<div id="image-over">
+					    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width="100px" height="100px">
+					    
+					    <!-- ADDING PLAY BUTTON -->
+			            <span class="play-button1">
+			                <i class="fas fa-play" style="font-size:20px;"></i>
+            
+			                <!-- ADDING MUSIC-PLAYER-CONTAINER -->
+					        <div id="music-play-container">
+
+							    <!-- ADDING MUSIC BOXES -->
+						        <div id="music-play-boxes">
+					    	        <div id="play-boxes">
+
+					    	        	<!-- ADDING IMAGE,SINGER NAME AND SONG NAME -->
+										<div class="image">
+											<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=60" width="60px" height="60px">
+										    <li>
+										  	    <p class="song-name">Imagine By John</p>
+										  	    <p class="singer-name">John Lennon</p>
+										    </li>
+										    <div class="heart">
+										  		<i class="far fa-heart"></i>
+										    </div>
+										
+										    <div class="ban">
+										  		<i class="fas fa-ban"></i>
+										  
+										    </div>
+									    </div>
+					  
+									    <!-- ADDING PLAYLIST-MENU  -->
+										<div id="menu">
+											<div id="music-play-icon">
+												<div class="shuffle">
+													<i class="fas fa-random" style="font-size:15px;"></i>
+												</div>
+												<div class="backward">
+													<img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
+												</div>
+												<div class="pause">
+													<i class="far fa-pause-circle" style="font-size: 35px;"></i>
+												</div>
+											    <div class="forward">
+											  	    <img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
+											    </div>
+											    <div class="repeat">
+											  	    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="30"viewBox="0 0 172 172"
+													style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M114.66667,22.93333v17.2h-68.8c-18.92932,0 -34.4,15.47068 -34.4,34.4c-0.02924,2.06765 1.05709,3.99087 2.843,5.03322c1.78592,1.04236 3.99474,1.04236 5.78066,0c1.78592,-1.04236 2.87225,-2.96558 2.843,-5.03322c0,-12.73015 10.20319,-22.93333 22.93333,-22.93333h68.8v17.2l40.13333,-22.93333zM154.71042,91.65495c-3.16203,0.04943 -5.68705,2.6496 -5.64375,5.81172c0,12.73015 -10.20318,22.93333 -22.93333,22.93333h-68.8v-17.2l-40.13333,22.93333l40.13333,22.93333v-17.2h68.8c18.92932,0 34.4,-15.47068 34.4,-34.4c0.02122,-1.54972 -0.58581,-3.04203 -1.68279,-4.1369c-1.09698,-1.09487 -2.59045,-1.69903 -4.14013,-1.67482z"></path></g></g>
+													</svg>
+									            </div>
+											</div>
+
+											<!--  ADDING SLIDER-RANGE -->
+											<div class="slider">
+												<span class="timer">1:39</span>
+											    <input type="range" id="range" name="range" min="0" max="11">
+											    <label for="range"></label>
+											    <span class="timer">4:44</span>
+										    </div>
+									    </div>
+
+									    <!-- ADDING LAST SLIDER SECTION  -->
+									    <div id="last-slider">
+									  	
+										  	<div>
+											  	<i class="fas fa-indent"></i>
+											  </div>
+											  <div>
+										  		<i class="fas fa-volume-down"></i>
+										  	</div>
+
+										  	<div >
+										  		<input type="range" id="range" name="range" min="0" max="11">
+											    <label for="range"></label>
+										  	</div>
+									  	    <div>
+									  		    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="32"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M166.625,0h-37.625c-2.97237,0 -5.375,2.40263 -5.375,5.375c0,2.97237 2.40263,5.375 5.375,5.375h22.65562l-51.07862,51.22375c-2.09625,2.10162 -2.09625,5.504 0.01075,7.60025c1.04812,1.04275 2.41875,1.5695 3.79475,1.5695c1.38138,0 2.75738,-0.52675 3.8055,-1.58025l53.062,-53.2125v26.64925c0,2.97238 2.40263,5.375 5.375,5.375c2.97237,0 5.375,-2.40262 5.375,-5.375v-37.625c0,-2.97237 -2.40263,-5.375 -5.375,-5.375z"></path><path d="M5.375,172h32.25c2.97237,0 5.375,-2.40263 5.375,-5.375c0,-2.97237 -2.40263,-5.375 -5.375,-5.375h-20.84962l51.07325,-51.22375c2.09625,-2.10162 2.09087,-5.504 -0.01075,-7.60025c-2.10162,-2.09087 -5.49862,-2.09625 -7.60025,0.01075l-49.48762,49.63275v-23.0695c0,-2.97237 -2.40263,-5.375 -5.375,-5.375c-2.97237,0 -5.375,2.40263 -5.375,5.375v37.625c0,2.97237 2.40263,5.375 5.375,5.375z"></path></g></g></svg>
+									  	    </div>
+									    </div>
+	                                </div>
+				                </div>
+		                    </div>
+
+			            
+			            </span>
+			        </div>
+
+					<!-- ADDING DATE -->
+					<span id="date">
+						<p>Onism</p>
+					    <p class="dates">AUG 11,2017</p>
+					</span>
+                    
+                    <!-- ADDING THREE DOTTED AND TIME  -->
+					<span id="time1">
+						<i class="fas fa-ellipsis-h"></i>
+
+						<!-- ADDING HOVER MENU BOXES WHEN HOVER THE THREE DOTTED IT WILL COME -->
+						<span id="music-menu-boxes">
+							<p class="button">
+								<i class="fas fa-play">
+									<span class="play-now">Play Now</span>
+								</i>
+						    </p>
+						    <p class="button">
+								<i class="fas fa-plus">
+									<span class="play-now">Add To Queue</span>
+								</i>
+						    </p>
+						    <p class="button">
+								<i class="fas fa-heart">
+									<span class="play-now">Add To Favourites</span>
+								</i>
+						    </p>
+						     <p class="button">
+								<i class="fas fa-info-circle">
+									<span class="play-now">Get Info</span>
+								</i>
+						    </p>
+					    </span>
+					  
+					</span>
+					<p class="time-location">4:44</p>
+			    </div>
+
+
+                <!-- ADDING THIRD BOX -->
+				<div class="release-box">
+					<!-- ADD HOVER IMAGE WHEN HOVER IMAGE PLAY-BUTTON WILL COME -->
+					<div id="image-over">
+					    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width="100px" height="100px">
+					    
+					    <!-- ADDING PLAY BUTTON -->
+			            <span class="play-button1">
+			                <i class="fas fa-play" style="font-size:20px;"></i>
+            
+			                <!-- ADDING MUSIC-PLAYER-CONTAINER -->
+					        <div id="music-play-container">
+
+							    <!-- ADDING MUSIC BOXES -->
+						        <div id="music-play-boxes">
+					    	        <div id="play-boxes">
+
+					    	        	<!-- ADDING IMAGE,SINGER NAME AND SONG NAME -->
+										<div class="image">
+											<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=60" width="60px" height="60px">
+										    <li>
+										  	    <p class="song-name">Imagine By John</p>
+										  	    <p class="singer-name">John Lennon</p>
+										    </li>
+										    <div class="heart">
+										  		<i class="far fa-heart"></i>
+										    </div>
+										
+										    <div class="ban">
+										  		<i class="fas fa-ban"></i>
+										  
+										    </div>
+									    </div>
+					  
+									    <!-- ADDING PLAYLIST-MENU  -->
+										<div id="menu">
+											<div id="music-play-icon">
+												<div class="shuffle">
+													<i class="fas fa-random" style="font-size:15px;"></i>
+												</div>
+												<div class="backward">
+													<img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
+												</div>
+												<div class="pause">
+													<i class="far fa-pause-circle" style="font-size: 35px;"></i>
+												</div>
+											    <div class="forward">
+											  	    <img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
+											    </div>
+											    <div class="repeat">
+											  	    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="30"viewBox="0 0 172 172"
+													style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M114.66667,22.93333v17.2h-68.8c-18.92932,0 -34.4,15.47068 -34.4,34.4c-0.02924,2.06765 1.05709,3.99087 2.843,5.03322c1.78592,1.04236 3.99474,1.04236 5.78066,0c1.78592,-1.04236 2.87225,-2.96558 2.843,-5.03322c0,-12.73015 10.20319,-22.93333 22.93333,-22.93333h68.8v17.2l40.13333,-22.93333zM154.71042,91.65495c-3.16203,0.04943 -5.68705,2.6496 -5.64375,5.81172c0,12.73015 -10.20318,22.93333 -22.93333,22.93333h-68.8v-17.2l-40.13333,22.93333l40.13333,22.93333v-17.2h68.8c18.92932,0 34.4,-15.47068 34.4,-34.4c0.02122,-1.54972 -0.58581,-3.04203 -1.68279,-4.1369c-1.09698,-1.09487 -2.59045,-1.69903 -4.14013,-1.67482z"></path></g></g>
+													</svg>
+									            </div>
+											</div>
+
+											<!--  ADDING SLIDER-RANGE -->
+											<div class="slider">
+												<span class="timer">1:39</span>
+											    <input type="range" id="range" name="range" min="0" max="11">
+											    <label for="range"></label>
+											    <span class="timer">4:44</span>
+										    </div>
+									    </div>
+
+									    <!-- ADDING LAST SLIDER SECTION  -->
+									    <div id="last-slider">
+									  	
+										  	<div>
+											  	<i class="fas fa-indent"></i>
+											  </div>
+											  <div>
+										  		<i class="fas fa-volume-down"></i>
+										  	</div>
+
+										  	<div >
+										  		<input type="range" id="range" name="range" min="0" max="11">
+											    <label for="range"></label>
+										  	</div>
+									  	    <div>
+									  		    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="32"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M166.625,0h-37.625c-2.97237,0 -5.375,2.40263 -5.375,5.375c0,2.97237 2.40263,5.375 5.375,5.375h22.65562l-51.07862,51.22375c-2.09625,2.10162 -2.09625,5.504 0.01075,7.60025c1.04812,1.04275 2.41875,1.5695 3.79475,1.5695c1.38138,0 2.75738,-0.52675 3.8055,-1.58025l53.062,-53.2125v26.64925c0,2.97238 2.40263,5.375 5.375,5.375c2.97237,0 5.375,-2.40262 5.375,-5.375v-37.625c0,-2.97237 -2.40263,-5.375 -5.375,-5.375z"></path><path d="M5.375,172h32.25c2.97237,0 5.375,-2.40263 5.375,-5.375c0,-2.97237 -2.40263,-5.375 -5.375,-5.375h-20.84962l51.07325,-51.22375c2.09625,-2.10162 2.09087,-5.504 -0.01075,-7.60025c-2.10162,-2.09087 -5.49862,-2.09625 -7.60025,0.01075l-49.48762,49.63275v-23.0695c0,-2.97237 -2.40263,-5.375 -5.375,-5.375c-2.97237,0 -5.375,2.40263 -5.375,5.375v37.625c0,2.97237 2.40263,5.375 5.375,5.375z"></path></g></g></svg>
+									  	    </div>
+									    </div>
+	                                </div>
+				                </div>
+		                    </div>
+
+			            
+			            </span>
+			        </div>
+
+					<!-- ADDING DATE -->
+					<span id="date">
+						<p>Onism</p>
+					    <p class="dates">AUG 11,2017</p>
+					</span>
+                    
+                    <!-- ADDING THREE DOTTED AND TIME -->
+					<span id="time1">
+						<i class="fas fa-ellipsis-h"></i>
+
+						<!-- ADDING HOVER MENU BOXES WHEN HOVER THE THREE DOTTED IT WILL COME -->
+						<span id="music-menu-boxes">
+							<p class="button">
+								<i class="fas fa-play">
+									<span class="play-now">Play Now</span>
+								</i>
+						    </p>
+						    <p class="button">
+								<i class="fas fa-plus">
+									<span class="play-now">Add To Queue</span>
+								</i>
+						    </p>
+						    <p class="button">
+								<i class="fas fa-heart">
+									<span class="play-now">Add To Favourites</span>
+								</i>
+						    </p>
+						     <p class="button">
+								<i class="fas fa-info-circle">
+									<span class="play-now">Get Info</span>
+								</i>
+						    </p>
+					    </span>
+					  
+					</span>
+					<p class="time-location">4:44</p>
+			    </div>
+
+                <!-- ADDING FOURTH BOX -->
+				<div class="release-box">
+					<!-- ADD HOVER IMAGE WHEN HOVER IMAGE PLAY-BUTTON WILL COME -->
+					<div id="image-over">
+					    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width="100px" height="100px">
+					    
+					    <!-- ADDING PLAY BUTTON -->
+			            <span class="play-button1">
+			                <i class="fas fa-play" style="font-size:20px;"></i>
+            
+			                <!-- ADDING MUSIC-PLAYER-CONTAINER -->
+					        <div id="music-play-container">
+
+							    <!-- ADDING MUSIC BOXES -->
+						        <div id="music-play-boxes">
+					    	        <div id="play-boxes">
+
+					    	        	<!-- ADDING IMAGE,SINGER NAME AND SONG NAME -->
+										<div class="image">
+											<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=60" width="60px" height="60px">
+										    <li>
+										  	    <p class="song-name">Imagine By John</p>
+										  	    <p class="singer-name">John Lennon</p>
+										    </li>
+										    <div class="heart">
+										  		<i class="far fa-heart"></i>
+										    </div>
+										
+										    <div class="ban">
+										  		<i class="fas fa-ban"></i>
+										  
+										    </div>
+									    </div>
+					  
+									    <!-- ADDING PLAYLIST-MENU  -->
+										<div id="menu">
+											<div id="music-play-icon">
+												<div class="shuffle">
+													<i class="fas fa-random" style="font-size:15px;"></i>
+												</div>
+												<div class="backward">
+													<img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
+												</div>
+												<div class="pause">
+													<i class="far fa-pause-circle" style="font-size: 35px;"></i>
+												</div>
+											    <div class="forward">
+											  	    <img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
+											    </div>
+											    <div class="repeat">
+											  	    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="30"viewBox="0 0 172 172"
+													style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M114.66667,22.93333v17.2h-68.8c-18.92932,0 -34.4,15.47068 -34.4,34.4c-0.02924,2.06765 1.05709,3.99087 2.843,5.03322c1.78592,1.04236 3.99474,1.04236 5.78066,0c1.78592,-1.04236 2.87225,-2.96558 2.843,-5.03322c0,-12.73015 10.20319,-22.93333 22.93333,-22.93333h68.8v17.2l40.13333,-22.93333zM154.71042,91.65495c-3.16203,0.04943 -5.68705,2.6496 -5.64375,5.81172c0,12.73015 -10.20318,22.93333 -22.93333,22.93333h-68.8v-17.2l-40.13333,22.93333l40.13333,22.93333v-17.2h68.8c18.92932,0 34.4,-15.47068 34.4,-34.4c0.02122,-1.54972 -0.58581,-3.04203 -1.68279,-4.1369c-1.09698,-1.09487 -2.59045,-1.69903 -4.14013,-1.67482z"></path></g></g>
+													</svg>
+									            </div>
+											</div>
+
+											<!--  ADDING SLIDER-RANGE -->
+											<div class="slider">
+												<span class="timer">1:39</span>
+											    <input type="range" id="range" name="range" min="0" max="11">
+											    <label for="range"></label>
+											    <span class="timer">4:44</span>
+										    </div>
+									    </div>
+
+									    <!-- ADDING LAST SLIDER SECTION  -->
+									    <div id="last-slider">
+									  	
+										  	<div>
+											  	<i class="fas fa-indent"></i>
+											  </div>
+											  <div>
+										  		<i class="fas fa-volume-down"></i>
+										  	</div>
+
+										  	<div >
+										  		<input type="range" id="range" name="range" min="0" max="11">
+											    <label for="range"></label>
+										  	</div>
+									  	    <div>
+									  		    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="32"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M166.625,0h-37.625c-2.97237,0 -5.375,2.40263 -5.375,5.375c0,2.97237 2.40263,5.375 5.375,5.375h22.65562l-51.07862,51.22375c-2.09625,2.10162 -2.09625,5.504 0.01075,7.60025c1.04812,1.04275 2.41875,1.5695 3.79475,1.5695c1.38138,0 2.75738,-0.52675 3.8055,-1.58025l53.062,-53.2125v26.64925c0,2.97238 2.40263,5.375 5.375,5.375c2.97237,0 5.375,-2.40262 5.375,-5.375v-37.625c0,-2.97237 -2.40263,-5.375 -5.375,-5.375z"></path><path d="M5.375,172h32.25c2.97237,0 5.375,-2.40263 5.375,-5.375c0,-2.97237 -2.40263,-5.375 -5.375,-5.375h-20.84962l51.07325,-51.22375c2.09625,-2.10162 2.09087,-5.504 -0.01075,-7.60025c-2.10162,-2.09087 -5.49862,-2.09625 -7.60025,0.01075l-49.48762,49.63275v-23.0695c0,-2.97237 -2.40263,-5.375 -5.375,-5.375c-2.97237,0 -5.375,2.40263 -5.375,5.375v37.625c0,2.97237 2.40263,5.375 5.375,5.375z"></path></g></g></svg>
+									  	    </div>
+									    </div>
+	                                </div>
+				                </div>
+		                    </div>
+
+			            
+			            </span>
+			        </div>
+
+					<!-- ADDING DATE -->
+					<span id="date">
+						<p>Onism</p>
+					    <p class="dates">AUG 11,2017</p>
+					</span>
+                    
+                    <!-- ADDING THREE DOTTED AND TIME -->
+					<span id="time1">
+						<i class="fas fa-ellipsis-h"></i>
+
+						<!-- ADDING HOVER MENU BOXES WHEN HOVER THE THREE DOTTED IT WILL COME -->
+						<span id="music-menu-boxes">
+							<p class="button">
+								<i class="fas fa-play">
+									<span class="play-now">Play Now</span>
+								</i>
+						    </p>
+						    <p class="button">
+								<i class="fas fa-plus">
+									<span class="play-now">Add To Queue</span>
+								</i>
+						    </p>
+						    <p class="button">
+								<i class="fas fa-heart">
+									<span class="play-now">Add To Favourites</span>
+								</i>
+						    </p>
+						     <p class="button">
+								<i class="fas fa-info-circle">
+									<span class="play-now">Get Info</span>
+								</i>
+						    </p>
+					    </span>
+					</span>
+					<p class="time-location">4:44</p>
+			    </div>
+	        </div>
+		</section>
+        
+        <!-- ADDING POPULAR-ARTIST-SECTION -->
+		<section id="popular-artist">
+			<h1>Popular Artist</h1>
+
+			<!-- ADDING ARTIST-NAMES AND IMAGES -->
+			<div id="artist-name">
+				<div>
+					<img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article15117393.ece/ALTERNATES/s1200c/1_GERMANY_Sheeran_154337.jpg" width="145px" height="145px">
+					<p>Ed Sheeran</p>
+				</div>
+
+				<div class="coldplay">
+					<img src="https://images.outlookindia.com/public/uploads/articles/2021/10/16/a735f54d15c64fa3f4e78f2a88f7aa0b--chris-martin-coldplay-band-photos_adobespark_630_630.jpg" width="145px" height="145px">
+					<span class="play-btn">
+						<a href="../HTML/singerpage.html">
+							 <i class="fas fa-play" style="font-size:20px;"></i>
+						</a>
+					</span>
+					<p>ColdPlay</p>
+				</div>
+
+				<div>
+					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeMpXfU32sanv-E8zU4lbHeeiMyr_o_rAivHJbLA39HkHJ167H" width="145px" height="145px">
+					<p>Zayn</p>
+				</div>
+				<div>
+					<img src="https://media.self.com/photos/61bb6dd05ca6667bf319e7d8/4:3/w_2560%2Cc_limit/GettyImages-1205218278.jpg" width="145px" height="145px">
+					<p>Charlie Puth</p>
+				</div>
+				<div>
+					<img src="https://media.resources.festicket.com/www/artists/ImagineDragons_New2.jpg" width="145px" height="145px">
+					<p>Imagine Dragon</p>
+				</div>
+				<div>
+					<img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5d1cfe70142c500008c82e0a%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D759%26cropX2%3D2349%26cropY1%3D69%26cropY2%3D1658" width="145px" height="145px">
+					<p>Bruno Mars</p>
+				</div>
+			</div >
+            
+            <!-- ADD MUSIC CATEGORIES -->
+			<div id="categories">
+
+				<!-- ADD MUSIC CATEGORIES-BOXES -->
+				<div id="categories-boxes">
+					<div id="music-folder">
+						<img src="https://www.transparentpng.com/thumb/music/music-style-icons-png-33.png" alt="music categories" width="140px" height="140px" >
+						<!-- <p>Music Stations</p> -->
+					</div>
+					<div class="stations">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-951326930-1579515324.jpg?crop=0.668xw:1.00xh;0.238xw,0&resize=480:*" width="110px" height="110px">
+                        <p>Love</p>
+					</div>
+					<div class="stations">
+						<img src="https://images.unsplash.com/photo-1584541728894-dbcae08f94ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" width="110px" height="110px">
+						<p>Retro</p>
+					</div>
+					<div class="stations">
+						<img src="https://images.unsplash.com/photo-1511367734837-f2956f0d8020?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=805&q=80" width="110px" height="110px">
+						<p>Chill</p>
+					</div>
+					<div class="stations1">
+						<img src="https://images.unsplash.com/photo-1634925718077-8b5c093f3d75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="110px" height="110px">
+						<p>Workout</p>
+					</div>
+                    <div class="stations">
+                    	<img src="https://cdn3.whatculture.com/images/2014/12/2.2529561-600x338.jpg" width="110px" height="110px">
+                    	<p>Rock</p>
+                    </div>
+                    <div class="stations">
+                    	<img src="https://cdn.thefreshtoast.com/wp-content/uploads/2017/09/gossip-lady-gagas-new-neighbors-hate-her-1068x580.jpg" width="110px" height="110px">
+                    	<p>Pop</p>
+                    </div>
+				</div>
+			</div>
+
+            <!--ADD MUSIC STATION-->
+            <div id="music-section">
+            	<!-- ADD MUSIC STATION CATEGORIES -->
+				<div id="music-categories">
+					<div class="musics-categories">
+						<img src="http://macdowellsbrewkitchen.com/wp-content/uploads/2018/11/dance-party.jpg" >
+						<p>Party</p>
+					</div>
+					<div class="musics-categories">
+						<img src="https://images.unsplash.com/photo-1544785349-c4a5301826fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" >
+						<p>Electronic</p>
+					</div>
+
+					<div class="musics-categories">
+						<img src="https://www.pennzoil.com/en_ca/latest/summer-road-trip/_jcr_content/pagePromo/image.img.960.jpeg/1622167540016/CS17174-04-PZ-Summer-Trip-Image-Resizing.jpeg">
+						<p>Road Trip</p>
+					</div>
+				</div>
+            </div>
+		</section>
+        
+        <!--ADD LATEST ENGLISH SECTION -->
+		<section id="latest-english">
+			<h1>Latest English</h1>
+
+			<!-- ADD LATEST-ENGLISH-BOXES -->
+			<div id="latest-english-boxes">
+				<div class="latest-english-boxes-images-names">
+				    <img src="https://images.unsplash.com/photo-1558563331-7b5e0e39be2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80" width="147px" height="147px">
+				    <p>Onism</p>
+				    <p class="date-month">AUG 11,2017</p>
+				</div>
+				<div class="latest-english-boxes-images-names">
+					<img src="https://images.unsplash.com/photo-1591035897819-f4bdf739f446?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="147px" height="147px">
+					<p>Onism</p>
+				    <p class="date-month">AUG 11,2017</p>
+				</div>
+				<div class="latest-english-boxes-images-names">
+					<img src="https://images.unsplash.com/photo-1530092285049-1c42085fd395?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" width="147px" height="147px">
+					<p>Onism</p>
+				    <p class="date-month">AUG 11,2017</p>
+				</div>
+				<div class="latest-english-boxes-images-names">
+					<img src="https://images.unsplash.com/photo-1507778031059-d74c30b52585?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" width="147px" height="147px">
+					<p>Onism</p>
+				   <p class="date-month">AUG 11,2017</p>
+				</div>
+				<div class="latest-english-boxes-images-names">
+					<img src="https://images.unsplash.com/photo-1544957992-20514f595d6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="147px" height="147px">
+					<p>Onism</p>
+				    <p class="date-month">AUG 11,2017</p>
+				</div>
+				<div class="latest-english-boxes-images-names">
+					<img src="https://images.unsplash.com/photo-1583244532610-2a234e7c3eca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="147px" height="147px">
+					<p>Onism</p>
+				    <p class="date-month">AUG 11,2017</p>
+				</div>
+			</div>
+		</section>
+        
+        <!-- ADDING LATEST HINDI SECTION -->
+		<section id="latest-hindi">
+			<h1>Latest Hindi</h1>
+
+			<!-- ADD LATEST-Hindi-BOXES -->
+			<div id="latest-hindi-boxes">
+				<div class="latest-hindi-boxes-images-names">
+				    <img src="https://images.unsplash.com/photo-1641030267989-e91eab7ada61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" width="147px" height="147px">
+				    <p>Onism</p>
+				    <p class="date-month">AUG 11,2017</p>
+				</div>
+				<div class="latest-hindi-boxes-images-names">
+					<img src="https://images.unsplash.com/photo-1641002487920-0c3d5ca4573e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=789&q=80" width="147px" height="147px">
+					<p>Onism</p>
+				    <p class="date-month">AUG 11,2017</p>
+				</div>
+				<div class="latest-hindi-boxes-images-names">
+					<img src="https://images.unsplash.com/photo-1640927781187-8e6fdd944737?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" width="147px" height="147px">
+					<p>Onism</p>
+				    <p class="date-month">AUG 11,2017</p>
+				</div>
+				<div class="latest-hindi-boxes-images-names">
+					<img src="https://images.unsplash.com/photo-1634487666187-bf3bf9002c1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" width="147px" height="147px">
+					<p>Onism</p>
+				   <p class="date-month">AUG 11,2017</p>
+				</div>
+				<div class="latest-hindi-boxes-images-names">
+					<img src="https://images.unsplash.com/photo-1634288669605-e3e6060a8704?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" width="147px" height="147px">
+					<p>Onism</p>
+				    <p class="date-month">AUG 11,2017</p>
+				</div>
+				<div class="latest-hindi-boxes-images-names">
+					<img src="https://images.unsplash.com/photo-1630329410813-4b8923fd3d9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=581&q=80" width="147px" height="147px">
+					<p>Onism</p>
+				    <p class="date-month">AUG 11,2017</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<aside> 
+        <!-- ADDING QUEUE-CONTATAINER -->
+	    <div id="queue-container">
+
+	    	<!-- ADDING QUEUE-HEADER -->
+	    	<div id="queue-header">
+	    		<h1>Queue</h1>
+
+	    		<!-- ADDING DROPDOWN MENU -->
+			    <div id="downmenu">
+			    	<p>Queue
+		    			<a href="#playlist">
+			    		    <i class="fas fa-angle-down"></i>
+			    	    </a>
+			    	</p>
+
+			    	<!-- ADDING PLAYLIST MENU -->
+			    	<div id="playlist">
+						<div class="playlist-boxes">
+							<p>Playlists</p>
+						</div>
+						<div class="playlist-boxes">
+							<p>Favourite Songs</p>
+						</div>
+						
+	                </div>
+
+			    </div>
+	    	</div>
+
+		    <!-- ADDING QUEUE CONTAINER-BOXES -->
+			<div id="queue-container-boxes">
+				<!-- ADDING QUEUE-BOXES -->
+				<div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>01</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1629388684419-9001049809be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Mirage</p>
+	                	<p class="color-gray">Else</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>02</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1629666501639-2b0061e36259?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Worry Bout Us</p>
+	                	<p class="color-gray">Rosie Lowe</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>03</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1624390001255-8961cf1d1dcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>New Skin</p>
+	                	<p class="color-gray">Flume</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>04</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Zayn</p>
+	                	<p class="color-gray">Better</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>05</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1536679887050-4bdea5bf41c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Harry Styles</p>
+	                	<p class="color-gray">Adore You</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+				    <span class="queue-boxeses">
+						<p>06</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1429087969512-1e85aab2683d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Grace VanderWaal</p>
+	                	<p class="color-gray">I Don't Like You</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>07</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1518051870910-a46e30d9db16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Billie Eilish</p>
+	                	<p class="color-gray">Your Power</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>08</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1494252713559-f26b4bf0b174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Shawn Mendes</p>
+	                	<p class="color-gray">Treat You Better</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>09</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1554424944-d72b391975b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Khalid</p>
+	                	<p class="color-gray">New Location</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>10</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Zara Larsson</p>
+	                	<p class="color-gray">All The Time</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>11</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1567653418876-5bb0e566e1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Camila Cabello</p>
+	                	<p class="color-gray">Don't Go Yet</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>12</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1532347922424-c652d9b7208e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Hailee Steinfeld </p>
+	                	<p class="color-gray">Love Myself</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>13</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Lorde</p>
+	                	<p class="color-gray">Royals</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>14</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1533910534207-90f31029a78e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Alessia Cara</p>
+	                	<p class="color-gray">Best Days</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>15</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1546902189-eaaf09f8e38f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=845&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Dua Lipa</p>
+	                	<p class="color-gray">Break My Heart</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>16</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1551844547-043f512dc4d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Ella Mai</p>
+	                	<p class="color-gray">Not Another Love</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>17</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1613140952277-1c6bd0386ff5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Meghan Trainor</p>
+	                	<p class="color-gray">All About That Bass</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>18</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1596591295835-5a5784eeed6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1045&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Julia Michaels</p>
+	                	<p class="color-gray">If You Need Me</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>19</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1601529686322-350562cc5d67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=945&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Niall Horan </p>
+	                	<p class="color-gray">Nice To Meet Ya</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>20</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Liam Payne</p>
+	                	<p class="color-gray">Strip That Down</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>21</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1434873740857-1bc5653afda8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=389&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Ariana Grande</p>
+	                	<p class="color-gray">Thank You, Next</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>22</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1540984258085-d788ce19df68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Charlie Puth</p>
+	                	<p class="color-gray">How Long</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>23</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1509083181683-47e2667b3b58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80s" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Anne-Marie</p>
+	                	<p class="color-gray">Ciao Adios</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+                
+                <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>24</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1504472478235-9bc48ba4d60f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Ed Sheeran</p>
+	                	<p class="color-gray">Bad Habits</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+			    
+			    <!-- ADDING QUEUE-BOXES -->
+			    <div id="queue-boxes">
+					<span class="queue-boxeses">
+						<p>25</p>
+					</span>
+					<span>
+						<img src="https://images.unsplash.com/photo-1516683037151-9a17603a8dc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=399&q=80" width="50px" height="50px">
+					</span>
+	                <span class="queue-boxeses1">
+	                	<p>Selena Gomez</p>
+	                	<p class="color-gray">Good For You</p>
+	                </span>
+	                <span class="favourite-icon">
+	                	<p>
+	                	    <i class="far fa-heart"></i>
+	                	</p>
+	                </span>
+			    </div>
+			</div>
+		</div>
+	</aside>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>
