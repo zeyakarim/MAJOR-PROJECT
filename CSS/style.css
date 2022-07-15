@@ -366,9 +366,10 @@ main{
 }
 
 /*ADD IMAGE HOVER*/
-#image-over{
+.image-over{
 	position: relative;
 	display: inline-block;
+	cursor: pointer;
 }
 
 /*ADD PLAY-BUTTON */
@@ -382,9 +383,9 @@ main{
 }
 
 /* ADD IMAGE HOVER PLAY BUTTON */
-#image-over:hover .play-button1{
+/* .image-over:hover .play-button1{
 	display: block;
-}
+} */
 
 /*ADD MUSIC PLAY CONTAINER*/
 #music-play-container{
@@ -394,9 +395,9 @@ main{
 }
 
 /*ADD PLAY BUTTON HOVER MUSIC PLAYER MENU*/
-.play-button1:hover #music-play-container{
+/* .play-button1:hover #music-play-container{
 	display: block;
-}
+} */
 
 /*ADD MUSIC PLAYER BOXES*/
 #music-play-boxes{
@@ -607,17 +608,18 @@ li{
 }
 
 /*ADDING TIME IN LATEST RELEASE */
-#time1{
+.time1{
 	display: inline-block;
 	position: relative;
 	font-size: 14px;
 	float: right;
 	margin-top: -2px;
+	cursor: pointer;
 }
 
 
 /*ADDING MUSIC MENU  FOR LATEST RELEASE THREE DOTTED*/
-#music-menu-boxes {
+.music-menu-boxes {
 	display: none;
 	background-color: white;
 	position: absolute;
@@ -627,7 +629,7 @@ li{
 }
 
 /*ADDING MUSIC MENU PARAGRAPH*/
-#music-menu-boxes p{
+.music-menu-boxes p{
 	margin: 0;
    width: 180px;
 	border-bottom: 1px solid #9e9e9e;
@@ -642,9 +644,9 @@ li{
 }
 
 /*ADDING HOVER WHEN LATEST RELEASE DOTTED HOVER ITS COME*/
-#time1:hover #music-menu-boxes {
+/* #time1:hover #music-menu-boxes {
    display: block;
-}
+} */
 
 /*ADDING TIME LOCATION FOR PARGRAPH UNTER THREE DOTTED*/
 .time-location{

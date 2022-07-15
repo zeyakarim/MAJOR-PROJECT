@@ -125,92 +125,12 @@
                 
                 <!-- ADDING FIRST BOX -->
 				<div class="release-box">
-	                <div id="image-over" class="click1">
+	                <div class="image-over" class="click1" data-toggles="false">
 					    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width="100px" height="100px">
 					    
 					    <!-- ADD PLAYBUTTON -->
-			            <span class="play-button1">
+			            <span class="play-button1" data-toggles="false">
 			                <i class="fas fa-play" style="font-size:20px;"></i>
-            
-			                <!-- ADDING MUSIC-PLAYER-CONTAINER -->
-					        <div id="music-play-container">
-
-							    <!-- ADDING MUSIC BOXES -->
-						        <div id="music-play-boxes">
-
-					    	        <div id="play-boxes">
-
-					    	        	<!-- ADDING IMAGE,SINGER NAME AND SONG NAME -->
-										<div class="image">
-											<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=60" width="60px" height="60px">
-										    <li>
-										  	    <p class="song-name">Imagine By John</p>
-										  	    <p class="singer-name">John Lennon</p>
-										    </li>
-										    <div class="heart">
-										  		<i class="far fa-heart"></i>
-										    </div>
-										
-										    <div class="ban">
-										  		<i class="fas fa-ban"></i>
-										  
-										    </div>
-									    </div>
-					  
-									    <!-- ADDING PLAYLIST-MENU  -->
-										<div id="menu">
-											<div id="music-play-icon">
-												<div class="shuffle">
-													<i class="fas fa-random" style="font-size:15px;"></i>
-												</div>
-												<div class="backward">
-													<img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
-												</div>
-												<div class="pause">
-													<i class="far fa-pause-circle" style="font-size: 35px;"></i>
-												</div>
-											    <div class="forward">
-											  	    <img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
-											    </div>
-											    <div class="repeat">
-											  	    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="30"viewBox="0 0 172 172"
-													style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M114.66667,22.93333v17.2h-68.8c-18.92932,0 -34.4,15.47068 -34.4,34.4c-0.02924,2.06765 1.05709,3.99087 2.843,5.03322c1.78592,1.04236 3.99474,1.04236 5.78066,0c1.78592,-1.04236 2.87225,-2.96558 2.843,-5.03322c0,-12.73015 10.20319,-22.93333 22.93333,-22.93333h68.8v17.2l40.13333,-22.93333zM154.71042,91.65495c-3.16203,0.04943 -5.68705,2.6496 -5.64375,5.81172c0,12.73015 -10.20318,22.93333 -22.93333,22.93333h-68.8v-17.2l-40.13333,22.93333l40.13333,22.93333v-17.2h68.8c18.92932,0 34.4,-15.47068 34.4,-34.4c0.02122,-1.54972 -0.58581,-3.04203 -1.68279,-4.1369c-1.09698,-1.09487 -2.59045,-1.69903 -4.14013,-1.67482z"></path></g></g>
-													</svg>
-									            </div>
-											</div>
-
-											<!--  ADDING SLIDER-RANGE -->
-											<div class="slider">
-												<span class="timer">1:39</span>
-											    <input type="range" id="range" name="range" min="0" max="11">
-											    <label for="range"></label>
-											    <span class="timer">4:44</span>
-										    </div>
-									    </div>
-
-									    <!-- ADDING LAST SLIDER SECTION  -->
-									    <div id="last-slider">
-									  	
-										  	<div>
-											  	<i class="fas fa-indent"></i>
-											  </div>
-											  <div>
-										  		<i class="fas fa-volume-down"></i>
-										  	</div>
-
-										  	<div >
-										  		<input type="range" id="range" name="range" min="0" max="11">
-											    <label for="range"></label>
-										  	</div>
-									  	    <div>
-									  		    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="32"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M166.625,0h-37.625c-2.97237,0 -5.375,2.40263 -5.375,5.375c0,2.97237 2.40263,5.375 5.375,5.375h22.65562l-51.07862,51.22375c-2.09625,2.10162 -2.09625,5.504 0.01075,7.60025c1.04812,1.04275 2.41875,1.5695 3.79475,1.5695c1.38138,0 2.75738,-0.52675 3.8055,-1.58025l53.062,-53.2125v26.64925c0,2.97238 2.40263,5.375 5.375,5.375c2.97237,0 5.375,-2.40262 5.375,-5.375v-37.625c0,-2.97237 -2.40263,-5.375 -5.375,-5.375z"></path><path d="M5.375,172h32.25c2.97237,0 5.375,-2.40263 5.375,-5.375c0,-2.97237 -2.40263,-5.375 -5.375,-5.375h-20.84962l51.07325,-51.22375c2.09625,-2.10162 2.09087,-5.504 -0.01075,-7.60025c-2.10162,-2.09087 -5.49862,-2.09625 -7.60025,0.01075l-49.48762,49.63275v-23.0695c0,-2.97237 -2.40263,-5.375 -5.375,-5.375c-2.97237,0 -5.375,2.40263 -5.375,5.375v37.625c0,2.97237 2.40263,5.375 5.375,5.375z"></path></g></g></svg>
-									  	    </div>
-									    </div>
-	                                </div>
-				                </div>
-		                    </div>
-
-			            
 			            </span>
 			        </div>
 
@@ -223,11 +143,11 @@
 					</span>
                     
                     <!-- ADDING THREE DOTTED AND TIME -->
-					<span id="time1">
+					<span class="time1" data-toggles="false">
 						<i class="fas fa-ellipsis-h"></i>
 
 						<!-- ADDING HOVER MENU BOXES WHEN HOVER THE THREE DOTTED IT WILL COME -->
-						<span id="music-menu-boxes">
+						<span class="music-menu-boxes">
 							<p class="button">
 								<i class="fas fa-play">
 									<span class="play-now">Play Now</span>
@@ -256,91 +176,12 @@
                 
                 <!-- ADDING SECOND BOX -->
 				<div class="release-box">
-					<div id="image-over">
+					<div class="image-over" data-toggles="false">
 					    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width="100px" height="100px">
 					    
 					    <!-- ADDING PLAY BUTTON -->
-			            <span class="play-button1">
+			            <span class="play-button1" data-toggles="false">
 			                <i class="fas fa-play" style="font-size:20px;"></i>
-            
-			                <!-- ADDING MUSIC-PLAYER-CONTAINER -->
-					        <div id="music-play-container">
-
-							    <!-- ADDING MUSIC BOXES -->
-						        <div id="music-play-boxes">
-					    	        <div id="play-boxes">
-
-					    	        	<!-- ADDING IMAGE,SINGER NAME AND SONG NAME -->
-										<div class="image">
-											<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=60" width="60px" height="60px">
-										    <li>
-										  	    <p class="song-name">Imagine By John</p>
-										  	    <p class="singer-name">John Lennon</p>
-										    </li>
-										    <div class="heart">
-										  		<i class="far fa-heart"></i>
-										    </div>
-										
-										    <div class="ban">
-										  		<i class="fas fa-ban"></i>
-										  
-										    </div>
-									    </div>
-					  
-									    <!-- ADDING PLAYLIST-MENU  -->
-										<div id="menu">
-											<div id="music-play-icon">
-												<div class="shuffle">
-													<i class="fas fa-random" style="font-size:15px;"></i>
-												</div>
-												<div class="backward">
-													<img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
-												</div>
-												<div class="pause">
-													<i class="far fa-pause-circle" style="font-size: 35px;"></i>
-												</div>
-											    <div class="forward">
-											  	    <img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
-											    </div>
-											    <div class="repeat">
-											  	    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="30"viewBox="0 0 172 172"
-													style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M114.66667,22.93333v17.2h-68.8c-18.92932,0 -34.4,15.47068 -34.4,34.4c-0.02924,2.06765 1.05709,3.99087 2.843,5.03322c1.78592,1.04236 3.99474,1.04236 5.78066,0c1.78592,-1.04236 2.87225,-2.96558 2.843,-5.03322c0,-12.73015 10.20319,-22.93333 22.93333,-22.93333h68.8v17.2l40.13333,-22.93333zM154.71042,91.65495c-3.16203,0.04943 -5.68705,2.6496 -5.64375,5.81172c0,12.73015 -10.20318,22.93333 -22.93333,22.93333h-68.8v-17.2l-40.13333,22.93333l40.13333,22.93333v-17.2h68.8c18.92932,0 34.4,-15.47068 34.4,-34.4c0.02122,-1.54972 -0.58581,-3.04203 -1.68279,-4.1369c-1.09698,-1.09487 -2.59045,-1.69903 -4.14013,-1.67482z"></path></g></g>
-													</svg>
-									            </div>
-											</div>
-
-											<!--  ADDING SLIDER-RANGE -->
-											<div class="slider">
-												<span class="timer">1:39</span>
-											    <input type="range" id="range" name="range" min="0" max="11">
-											    <label for="range"></label>
-											    <span class="timer">4:44</span>
-										    </div>
-									    </div>
-
-									    <!-- ADDING LAST SLIDER SECTION  -->
-									    <div id="last-slider">
-									  	
-										  	<div>
-											  	<i class="fas fa-indent"></i>
-											  </div>
-											  <div>
-										  		<i class="fas fa-volume-down"></i>
-										  	</div>
-
-										  	<div >
-										  		<input type="range" id="range" name="range" min="0" max="11">
-											    <label for="range"></label>
-										  	</div>
-									  	    <div>
-									  		    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="32"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M166.625,0h-37.625c-2.97237,0 -5.375,2.40263 -5.375,5.375c0,2.97237 2.40263,5.375 5.375,5.375h22.65562l-51.07862,51.22375c-2.09625,2.10162 -2.09625,5.504 0.01075,7.60025c1.04812,1.04275 2.41875,1.5695 3.79475,1.5695c1.38138,0 2.75738,-0.52675 3.8055,-1.58025l53.062,-53.2125v26.64925c0,2.97238 2.40263,5.375 5.375,5.375c2.97237,0 5.375,-2.40262 5.375,-5.375v-37.625c0,-2.97237 -2.40263,-5.375 -5.375,-5.375z"></path><path d="M5.375,172h32.25c2.97237,0 5.375,-2.40263 5.375,-5.375c0,-2.97237 -2.40263,-5.375 -5.375,-5.375h-20.84962l51.07325,-51.22375c2.09625,-2.10162 2.09087,-5.504 -0.01075,-7.60025c-2.10162,-2.09087 -5.49862,-2.09625 -7.60025,0.01075l-49.48762,49.63275v-23.0695c0,-2.97237 -2.40263,-5.375 -5.375,-5.375c-2.97237,0 -5.375,2.40263 -5.375,5.375v37.625c0,2.97237 2.40263,5.375 5.375,5.375z"></path></g></g></svg>
-									  	    </div>
-									    </div>
-	                                </div>
-				                </div>
-		                    </div>
-
-			            
 			            </span>
 			        </div>
 
@@ -351,11 +192,11 @@
 					</span>
                     
                     <!-- ADDING THREE DOTTED AND TIME  -->
-					<span id="time1">
+					<span class="time1"  data-toggles="false">
 						<i class="fas fa-ellipsis-h"></i>
 
 						<!-- ADDING HOVER MENU BOXES WHEN HOVER THE THREE DOTTED IT WILL COME -->
-						<span id="music-menu-boxes">
+						<span class="music-menu-boxes">
 							<p class="button">
 								<i class="fas fa-play">
 									<span class="play-now">Play Now</span>
@@ -386,91 +227,12 @@
                 <!-- ADDING THIRD BOX -->
 				<div class="release-box">
 					<!-- ADD HOVER IMAGE WHEN HOVER IMAGE PLAY-BUTTON WILL COME -->
-					<div id="image-over">
+					<div class="image-over" data-toggles="false">
 					    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width="100px" height="100px">
 					    
 					    <!-- ADDING PLAY BUTTON -->
-			            <span class="play-button1">
+			            <span class="play-button1" data-toggles="false">
 			                <i class="fas fa-play" style="font-size:20px;"></i>
-            
-			                <!-- ADDING MUSIC-PLAYER-CONTAINER -->
-					        <div id="music-play-container">
-
-							    <!-- ADDING MUSIC BOXES -->
-						        <div id="music-play-boxes">
-					    	        <div id="play-boxes">
-
-					    	        	<!-- ADDING IMAGE,SINGER NAME AND SONG NAME -->
-										<div class="image">
-											<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=60" width="60px" height="60px">
-										    <li>
-										  	    <p class="song-name">Imagine By John</p>
-										  	    <p class="singer-name">John Lennon</p>
-										    </li>
-										    <div class="heart">
-										  		<i class="far fa-heart"></i>
-										    </div>
-										
-										    <div class="ban">
-										  		<i class="fas fa-ban"></i>
-										  
-										    </div>
-									    </div>
-					  
-									    <!-- ADDING PLAYLIST-MENU  -->
-										<div id="menu">
-											<div id="music-play-icon">
-												<div class="shuffle">
-													<i class="fas fa-random" style="font-size:15px;"></i>
-												</div>
-												<div class="backward">
-													<img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
-												</div>
-												<div class="pause">
-													<i class="far fa-pause-circle" style="font-size: 35px;"></i>
-												</div>
-											    <div class="forward">
-											  	    <img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
-											    </div>
-											    <div class="repeat">
-											  	    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="30"viewBox="0 0 172 172"
-													style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M114.66667,22.93333v17.2h-68.8c-18.92932,0 -34.4,15.47068 -34.4,34.4c-0.02924,2.06765 1.05709,3.99087 2.843,5.03322c1.78592,1.04236 3.99474,1.04236 5.78066,0c1.78592,-1.04236 2.87225,-2.96558 2.843,-5.03322c0,-12.73015 10.20319,-22.93333 22.93333,-22.93333h68.8v17.2l40.13333,-22.93333zM154.71042,91.65495c-3.16203,0.04943 -5.68705,2.6496 -5.64375,5.81172c0,12.73015 -10.20318,22.93333 -22.93333,22.93333h-68.8v-17.2l-40.13333,22.93333l40.13333,22.93333v-17.2h68.8c18.92932,0 34.4,-15.47068 34.4,-34.4c0.02122,-1.54972 -0.58581,-3.04203 -1.68279,-4.1369c-1.09698,-1.09487 -2.59045,-1.69903 -4.14013,-1.67482z"></path></g></g>
-													</svg>
-									            </div>
-											</div>
-
-											<!--  ADDING SLIDER-RANGE -->
-											<div class="slider">
-												<span class="timer">1:39</span>
-											    <input type="range" id="range" name="range" min="0" max="11">
-											    <label for="range"></label>
-											    <span class="timer">4:44</span>
-										    </div>
-									    </div>
-
-									    <!-- ADDING LAST SLIDER SECTION  -->
-									    <div id="last-slider">
-									  	
-										  	<div>
-											  	<i class="fas fa-indent"></i>
-											  </div>
-											  <div>
-										  		<i class="fas fa-volume-down"></i>
-										  	</div>
-
-										  	<div >
-										  		<input type="range" id="range" name="range" min="0" max="11">
-											    <label for="range"></label>
-										  	</div>
-									  	    <div>
-									  		    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="32"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M166.625,0h-37.625c-2.97237,0 -5.375,2.40263 -5.375,5.375c0,2.97237 2.40263,5.375 5.375,5.375h22.65562l-51.07862,51.22375c-2.09625,2.10162 -2.09625,5.504 0.01075,7.60025c1.04812,1.04275 2.41875,1.5695 3.79475,1.5695c1.38138,0 2.75738,-0.52675 3.8055,-1.58025l53.062,-53.2125v26.64925c0,2.97238 2.40263,5.375 5.375,5.375c2.97237,0 5.375,-2.40262 5.375,-5.375v-37.625c0,-2.97237 -2.40263,-5.375 -5.375,-5.375z"></path><path d="M5.375,172h32.25c2.97237,0 5.375,-2.40263 5.375,-5.375c0,-2.97237 -2.40263,-5.375 -5.375,-5.375h-20.84962l51.07325,-51.22375c2.09625,-2.10162 2.09087,-5.504 -0.01075,-7.60025c-2.10162,-2.09087 -5.49862,-2.09625 -7.60025,0.01075l-49.48762,49.63275v-23.0695c0,-2.97237 -2.40263,-5.375 -5.375,-5.375c-2.97237,0 -5.375,2.40263 -5.375,5.375v37.625c0,2.97237 2.40263,5.375 5.375,5.375z"></path></g></g></svg>
-									  	    </div>
-									    </div>
-	                                </div>
-				                </div>
-		                    </div>
-
-			            
 			            </span>
 			        </div>
 
@@ -481,11 +243,11 @@
 					</span>
                     
                     <!-- ADDING THREE DOTTED AND TIME -->
-					<span id="time1">
+					<span class="time1"  data-toggles="false">
 						<i class="fas fa-ellipsis-h"></i>
 
 						<!-- ADDING HOVER MENU BOXES WHEN HOVER THE THREE DOTTED IT WILL COME -->
-						<span id="music-menu-boxes">
+						<span class="music-menu-boxes">
 							<p class="button">
 								<i class="fas fa-play">
 									<span class="play-now">Play Now</span>
@@ -515,91 +277,12 @@
                 <!-- ADDING FOURTH BOX -->
 				<div class="release-box">
 					<!-- ADD HOVER IMAGE WHEN HOVER IMAGE PLAY-BUTTON WILL COME -->
-					<div id="image-over">
+					<div class="image-over" data-toggles="false">
 					    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width="100px" height="100px">
 					    
 					    <!-- ADDING PLAY BUTTON -->
-			            <span class="play-button1">
+			            <span class="play-button1" data-toggles="false">
 			                <i class="fas fa-play" style="font-size:20px;"></i>
-            
-			                <!-- ADDING MUSIC-PLAYER-CONTAINER -->
-					        <div id="music-play-container">
-
-							    <!-- ADDING MUSIC BOXES -->
-						        <div id="music-play-boxes">
-					    	        <div id="play-boxes">
-
-					    	        	<!-- ADDING IMAGE,SINGER NAME AND SONG NAME -->
-										<div class="image">
-											<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=60" width="60px" height="60px">
-										    <li>
-										  	    <p class="song-name">Imagine By John</p>
-										  	    <p class="singer-name">John Lennon</p>
-										    </li>
-										    <div class="heart">
-										  		<i class="far fa-heart"></i>
-										    </div>
-										
-										    <div class="ban">
-										  		<i class="fas fa-ban"></i>
-										  
-										    </div>
-									    </div>
-					  
-									    <!-- ADDING PLAYLIST-MENU  -->
-										<div id="menu">
-											<div id="music-play-icon">
-												<div class="shuffle">
-													<i class="fas fa-random" style="font-size:15px;"></i>
-												</div>
-												<div class="backward">
-													<img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
-												</div>
-												<div class="pause">
-													<i class="far fa-pause-circle" style="font-size: 35px;"></i>
-												</div>
-											    <div class="forward">
-											  	    <img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
-											    </div>
-											    <div class="repeat">
-											  	    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="30"viewBox="0 0 172 172"
-													style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M114.66667,22.93333v17.2h-68.8c-18.92932,0 -34.4,15.47068 -34.4,34.4c-0.02924,2.06765 1.05709,3.99087 2.843,5.03322c1.78592,1.04236 3.99474,1.04236 5.78066,0c1.78592,-1.04236 2.87225,-2.96558 2.843,-5.03322c0,-12.73015 10.20319,-22.93333 22.93333,-22.93333h68.8v17.2l40.13333,-22.93333zM154.71042,91.65495c-3.16203,0.04943 -5.68705,2.6496 -5.64375,5.81172c0,12.73015 -10.20318,22.93333 -22.93333,22.93333h-68.8v-17.2l-40.13333,22.93333l40.13333,22.93333v-17.2h68.8c18.92932,0 34.4,-15.47068 34.4,-34.4c0.02122,-1.54972 -0.58581,-3.04203 -1.68279,-4.1369c-1.09698,-1.09487 -2.59045,-1.69903 -4.14013,-1.67482z"></path></g></g>
-													</svg>
-									            </div>
-											</div>
-
-											<!--  ADDING SLIDER-RANGE -->
-											<div class="slider">
-												<span class="timer">1:39</span>
-											    <input type="range" id="range" name="range" min="0" max="11">
-											    <label for="range"></label>
-											    <span class="timer">4:44</span>
-										    </div>
-									    </div>
-
-									    <!-- ADDING LAST SLIDER SECTION  -->
-									    <div id="last-slider">
-									  	
-										  	<div>
-											  	<i class="fas fa-indent"></i>
-											  </div>
-											  <div>
-										  		<i class="fas fa-volume-down"></i>
-										  	</div>
-
-										  	<div >
-										  		<input type="range" id="range" name="range" min="0" max="11">
-											    <label for="range"></label>
-										  	</div>
-									  	    <div>
-									  		    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="32"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M166.625,0h-37.625c-2.97237,0 -5.375,2.40263 -5.375,5.375c0,2.97237 2.40263,5.375 5.375,5.375h22.65562l-51.07862,51.22375c-2.09625,2.10162 -2.09625,5.504 0.01075,7.60025c1.04812,1.04275 2.41875,1.5695 3.79475,1.5695c1.38138,0 2.75738,-0.52675 3.8055,-1.58025l53.062,-53.2125v26.64925c0,2.97238 2.40263,5.375 5.375,5.375c2.97237,0 5.375,-2.40262 5.375,-5.375v-37.625c0,-2.97237 -2.40263,-5.375 -5.375,-5.375z"></path><path d="M5.375,172h32.25c2.97237,0 5.375,-2.40263 5.375,-5.375c0,-2.97237 -2.40263,-5.375 -5.375,-5.375h-20.84962l51.07325,-51.22375c2.09625,-2.10162 2.09087,-5.504 -0.01075,-7.60025c-2.10162,-2.09087 -5.49862,-2.09625 -7.60025,0.01075l-49.48762,49.63275v-23.0695c0,-2.97237 -2.40263,-5.375 -5.375,-5.375c-2.97237,0 -5.375,2.40263 -5.375,5.375v37.625c0,2.97237 2.40263,5.375 5.375,5.375z"></path></g></g></svg>
-									  	    </div>
-									    </div>
-	                                </div>
-				                </div>
-		                    </div>
-
-			            
 			            </span>
 			        </div>
 
@@ -610,11 +293,11 @@
 					</span>
                     
                     <!-- ADDING THREE DOTTED AND TIME -->
-					<span id="time1">
+					<span class="time1"  data-toggles="false">
 						<i class="fas fa-ellipsis-h"></i>
 
 						<!-- ADDING HOVER MENU BOXES WHEN HOVER THE THREE DOTTED IT WILL COME -->
-						<span id="music-menu-boxes">
+						<span class="music-menu-boxes">
 							<p class="button">
 								<i class="fas fa-play">
 									<span class="play-now">Play Now</span>
@@ -640,6 +323,83 @@
 					<p class="time-location">4:44</p>
 			    </div>
 	        </div>
+
+			<!-- ADDING MUSIC-PLAYER-CONTAINER -->
+			<div id="music-play-container">
+
+				<!-- ADDING MUSIC BOXES -->
+				<div id="music-play-boxes">
+					<div id="play-boxes">
+
+						<!-- ADDING IMAGE,SINGER NAME AND SONG NAME -->
+						<div class="image">
+							<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=60" width="60px" height="60px">
+							<li>
+								  <p class="song-name">Imagine By John</p>
+								  <p class="singer-name">John Lennon</p>
+							</li>
+							<div class="heart">
+								  <i class="far fa-heart"></i>
+							</div>
+						
+							<div class="ban">
+								  <i class="fas fa-ban"></i>
+						  
+							</div>
+						</div>
+	  
+						<!-- ADDING PLAYLIST-MENU  -->
+						<div id="menu">
+							<div id="music-play-icon">
+								<div class="shuffle">
+									<i class="fas fa-random" style="font-size:15px;"></i>
+								</div>
+								<div class="backward">
+									<img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
+								</div>
+								<div class="pause">
+									<i class="far fa-pause-circle" style="font-size: 35px;"></i>
+								</div>
+								<div class="forward">
+									  <img src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/last-512.png" width="15px">
+								</div>
+								<div class="repeat">
+									  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="30"viewBox="0 0 172 172"
+									style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M114.66667,22.93333v17.2h-68.8c-18.92932,0 -34.4,15.47068 -34.4,34.4c-0.02924,2.06765 1.05709,3.99087 2.843,5.03322c1.78592,1.04236 3.99474,1.04236 5.78066,0c1.78592,-1.04236 2.87225,-2.96558 2.843,-5.03322c0,-12.73015 10.20319,-22.93333 22.93333,-22.93333h68.8v17.2l40.13333,-22.93333zM154.71042,91.65495c-3.16203,0.04943 -5.68705,2.6496 -5.64375,5.81172c0,12.73015 -10.20318,22.93333 -22.93333,22.93333h-68.8v-17.2l-40.13333,22.93333l40.13333,22.93333v-17.2h68.8c18.92932,0 34.4,-15.47068 34.4,-34.4c0.02122,-1.54972 -0.58581,-3.04203 -1.68279,-4.1369c-1.09698,-1.09487 -2.59045,-1.69903 -4.14013,-1.67482z"></path></g></g>
+									</svg>
+								</div>
+							</div>
+
+							<!--  ADDING SLIDER-RANGE -->
+							<div class="slider">
+								<span class="timer">1:39</span>
+								<input type="range" id="range" name="range" min="0" max="11">
+								<label for="range"></label>
+								<span class="timer">4:44</span>
+							</div>
+						</div>
+
+						<!-- ADDING LAST SLIDER SECTION  -->
+						<div id="last-slider">
+						  
+							  <div>
+								  <i class="fas fa-indent"></i>
+							  </div>
+							  <div>
+								  <i class="fas fa-volume-down"></i>
+							  </div>
+
+							  <div >
+								  <input type="range" id="range" name="range" min="0" max="11">
+								<label for="range"></label>
+							  </div>
+							  <div>
+								  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="32"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#666666"><path d="M166.625,0h-37.625c-2.97237,0 -5.375,2.40263 -5.375,5.375c0,2.97237 2.40263,5.375 5.375,5.375h22.65562l-51.07862,51.22375c-2.09625,2.10162 -2.09625,5.504 0.01075,7.60025c1.04812,1.04275 2.41875,1.5695 3.79475,1.5695c1.38138,0 2.75738,-0.52675 3.8055,-1.58025l53.062,-53.2125v26.64925c0,2.97238 2.40263,5.375 5.375,5.375c2.97237,0 5.375,-2.40262 5.375,-5.375v-37.625c0,-2.97237 -2.40263,-5.375 -5.375,-5.375z"></path><path d="M5.375,172h32.25c2.97237,0 5.375,-2.40263 5.375,-5.375c0,-2.97237 -2.40263,-5.375 -5.375,-5.375h-20.84962l51.07325,-51.22375c2.09625,-2.10162 2.09087,-5.504 -0.01075,-7.60025c-2.10162,-2.09087 -5.49862,-2.09625 -7.60025,0.01075l-49.48762,49.63275v-23.0695c0,-2.97237 -2.40263,-5.375 -5.375,-5.375c-2.97237,0 -5.375,2.40263 -5.375,5.375v37.625c0,2.97237 2.40263,5.375 5.375,5.375z"></path></g></g></svg>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
         
         <!-- ADDING POPULAR-ARTIST-SECTION -->
@@ -1327,6 +1087,6 @@
 	</aside>
 
 	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="../js/script.js"></script>
+	<script type="text/javascript" src="../JS/script.js"></script>
 </body>
 </html>
