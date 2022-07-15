@@ -1104,15 +1104,15 @@ aside{
 }
 /*ADDING QUEUE-DROPDOWN MENU*/
 #downmenu {
-	margin: 34px 0px 0px 120px;
+	margin: 34px 0px 0px 151px;
 	color: green;
 	position: relative;
 }
 
 /*ADDING DROPDOWN MENU HOVER WHEN HOVER THE ARROW THEN IT WILL COME*/
-#downmenu:hover #playlist{
+/* #downmenu:hover #playlist{
 	display: block;
-}
+} */
 
 /*ADDING DROPDOWN MENU PARAGRAPH*/
 #downmenu p{
@@ -1124,7 +1124,9 @@ aside{
 	color: green;
 	padding: 0px 10px;
 }
-
+#downmenu i{
+	cursor: pointer;
+}
 /*ADDING PLAYLIST FOR DROPDOWN MENU*/
 #playlist{
 	color: black;
@@ -1133,8 +1135,10 @@ aside{
 	font-family: sans-serif;
 	font-weight: 600;
 	position: absolute;
-	left: -140%;
+	/* left: -140%; */
 	overflow: hidden;
+	z-index: 1;
+	right: -18%;
 }
 
 /*ADDING PLAYLIST DIV*/

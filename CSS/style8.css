@@ -120,6 +120,10 @@ body{
    background-color: transparent;
    border: 0;
    width: 240px;
+   color: white;
+}
+.search-area input:focus{
+	outline: none;
 }
 
 /*ADD MIC*/

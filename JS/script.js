@@ -41,6 +41,19 @@ let playbtn = function(menu){
     })
 }
 
+
+let playlist = $('#downmenu i');
+playlist.click(function(e){
+    let data = $('#playlist').attr('data-toggles');
+    if(data == 'false'){
+        $('#playlist').css('display','block');
+        $('#playlist').attr('data-toggles',true);
+    }else{
+        $('#playlist').css('display','none');
+        $('#playlist').attr('data-toggles',false);
+    }
+})
+
 let playbutton = $('.play-button1');
 
 for(i of playbutton){
@@ -60,3 +73,5 @@ let imgHover = $('.image-over');
 for(img of imgHover){
     clickImg(img);
 }
+
+
